@@ -1,12 +1,12 @@
 # Analysis of methanol retention in reversed micelles formed by aot/isooctane/water
 
 ---
-This repository is a technical guide to reproduce the results in
-our [paper](https://localhost:8888/). 
-
 <p align="center">
 <img src="buildOfRMs.png" alt="RM39">
 </p>
+
+This repository is a technical guide to reproduce the results in
+our [paper](https://localhost:8888/). 
 
 ## Requirements
 - Python 3.5
