@@ -7,6 +7,13 @@
 This repository is a technical guide to reproduce the results in
 our [paper](https://github.com/antadlp/rms-aot-methanol). 
 
+## Table of contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Guide](#guide)
+- [License](#license)
+- [Citation](#citation)
+
 ## Requirements
 Here are some general requirements, but to give the exact
 requirements and dependencies, i created an anaconda environment
@@ -34,9 +41,16 @@ conda activate paperenv.yml
 cd ..
 jupyter notebook --no-browser
 ```
+
 Remember to be positioned at the level where the rms-aot-methanol
 folder is located when you run jupyter notebook to be able to see
 all the files inside this repository.
+
+## Guide
+
+
+## License
+See the [LICENSE](LICENSE) file for more details.
 
 ## Citation
 If this helps you in any way, cite this as described below.
