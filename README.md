@@ -47,7 +47,22 @@ folder is located when you run jupyter notebook to be able to see
 all the files inside this repository.
 
 ## Guide
-
+- Build of the systems
+   - Upgrade forcefield parameters for isooctane
+   - Molecular self-assembly of RMs
+   - Treatment due to periodic conditions 
+   - Placement of RM into isooctane
+   - Placement of methanol into RM/isooctane
+- (Production) Runs of dynamics
+   - Relaxation process
+   - Runs
+- (Post-production) Data analysis
+   - Extract trayectories
+   - Treatment due to periodic conditions
+   - Temperature
+   - Potential energy
+   - Radius of gyration
+   - Principal axis of inertia
 
 ## License
 See the [LICENSE](LICENSE) file for more details.
