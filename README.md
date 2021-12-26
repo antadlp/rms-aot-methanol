@@ -1,7 +1,7 @@
 # Analysis of methanol retention in reversed micelles formed by AOT/isooctane/water
 
 <p align="center">
-<img src="buildOfRMs.png" alt="RM39">
+<img src="build-of-rms.png" alt="RM39">
 </p>
 
 This repository is a technical guide to reproduce the results in
