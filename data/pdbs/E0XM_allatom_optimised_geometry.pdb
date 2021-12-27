@@ -1,0 +1,7 @@
+HEADER    UNCLASSIFIED                            24-Dec-21
+TITLE     ALL ATOM STRUCTURE FOR MOLECULE UNK                                   
+AUTHOR    GROMOS AUTOMATIC TOPOLOGY BUILDER REVISION 2021-05-20 12:41:00
+AUTHOR   2  http://compbio.biosci.uq.edu.au/atb
+HETATM    1   Na E0XM    0       0.000   0.000   0.000  1.00  0.00          Na
+CONECT    1
+END
