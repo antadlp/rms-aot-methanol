@@ -49,7 +49,7 @@ all the files inside this repository.
 ## Guide
 - Build of the systems
    - [Molecules information etc](./notebooks/Molecules_information_etc.ipynb)
-   - Upgrade forcefield parameters for isooctane
+   <!-- - Upgrade forcefield parameters for isooctane -->
    - Molecular self-assembly of RMs
    - Treatment due to periodic conditions 
    - Placement of RM into isooctane
