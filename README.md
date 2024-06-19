@@ -1,4 +1,4 @@
-# Analysis of methanol retention in reversed micelles formed by AOT/isooctane/water
+# The influence of temperature in the retention of methanol by AOT reverse micelles: Molecular dynamics and first principle study
 
 <p align="center">
 <img src="build-of-rms.png" alt="RM39">
