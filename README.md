@@ -73,8 +73,8 @@ If this helps you in any way, cite this as described below.
 
 ```
 @article{alvarez2022rmsMetanol,
-  title={Analysis of methanol retention in reversed micelles formed by aot isooctane water},
-  author={antonio, sarah and hector},
+  title={The influence of temperature in the retention of methanol by AOT reverse micelles: Molecular dynamics and first principle study},
+  author={antonio, miz, amir, hector},
   year={2022}
 }
 ```
