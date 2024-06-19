@@ -1,0 +1,39 @@
+[ defaults ]
+; nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+  1		1		no		1.0	1.0
+
+[ atomtypes ]
+;name  at.num   mass      charge  ptype       c6           c12
+    O    8      0.000      0.000     A  0.0022619536       1e-06
+   OM    8      0.000      0.000     A  0.0022619536  7.4149321e-07
+   OW    8      0.000      0.000     A  0.0026173456  2.634129e-06
+    H    1      0.000      0.000     A           0           0
+   MW    0      0.000      0.000     D  0.0           0.0
+				
+
+[ moleculetype ]
+; molname	nrexcl
+SOL		2
+
+[ atoms ]
+;   nr   type  resnr residue  atom   cgnr     charge       mass
+     1     OW      1    SOL     OW      1    -0.8476   15.99940
+     2      H      1    SOL    HW1      1     0.4238    1.00800
+     3      H      1    SOL    HW2      1     0.4238    1.00800
+
+[ bonds ]
+; i	j	funct	length	force.c.
+1	2	1	0.1	345000	0.1     345000
+1	3	1	0.1	345000	0.1     345000
+	
+[ angles ]
+; i	j	k	funct	angle	force.c.
+2	1	3	1	109.47	383	109.47	383
+
+
+[ System ]
+TIP4PEW in water
+
+[ Molecules ]
+SOL               392
+
