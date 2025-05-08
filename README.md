@@ -28,7 +28,7 @@ available in the [installation](#installation) section.
 
 ## Installation
 There is no formal installation since this is a technical guide
-to the [article](https://github.com/antadlp/rms-aot-methanol).
+to the [article](https://doi.org/10.1021/acs.jpcb.5c01224).
 Nonetheless, you can follow these instructions to use and
 interact with the notebooks and code that
 is presented.
