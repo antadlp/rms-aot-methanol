@@ -1,4 +1,4 @@
-# The influence of temperature in the retention of methanol by AOT reverse micelles: Molecular dynamics and first principle study
+# The Influence of Temperature on the Retention of Methanol by AOT Reverse Micelles: A Molecular Dynamics and First-Principles Study
 
 <p align="center">
 <img src="build-of-rms.png" alt="RM39">
