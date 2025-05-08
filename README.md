@@ -46,7 +46,8 @@ Make sure to run Jupyter Notebook from the directory that
 contains the rms-aot-methanol folder so that all files and paths
 within the repository are accessible.
 
-## Guide
+## Guide (🚧 Under Construction)
+This section of the project is currently being worked on. Stay tuned for updates!
 
 ### System Preparation
 - [Molecular information, composition, etc.](./notebooks/Molecules_information_etc.ipynb)
