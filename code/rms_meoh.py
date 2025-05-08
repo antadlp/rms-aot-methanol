@@ -1,8 +1,11 @@
 import numpy as np
 import pandas as pd
+from herramientas import *
 
+herr = herramientas()
 
 class rms_meoh(object):
+
 
     def eskici_naot(self, **kwargs):
 
@@ -29,5 +32,31 @@ class rms_meoh(object):
         return np.multiply(w0, aots)    
     
     
-    
-    
+    def f_Niso(self, **kwargs):
+
+        # Niso = kwargs.get("Niso", "NULL")
+        Nhoh = kwargs.get("Nhoh", "NULL")
+        Naot = kwargs.get("Naot", "NULL")
+        Nna = kwargs.get("Nna", "NULL")
+        fiso = kwargs.get("fiso", "NULL")
+
+        pathiso = "../data/xyz/isooctane.xyz"
+        pathaot = "../data/xyz/aot.xyz"
+        pathhoh = "../data/xyz/spc.xyz"
+        pathna = "../data/xyz/na.xyz"
+
+        Miso = herr.molar_mass(pathiso)
+        Mhoh = herr.molar_mass(pathhoh)
+        Maot = herr.molar_mass(pathaot)
+        Mna = herr.molar_mass(pathna)
+
+        b = fiso*(Mhoh*Nhoh + Maot*Naot + Mna*Nna)
+        a = Miso*(1.0-fiso)
+
+        return np.divide(b, a)
+
+
+
+
+
+
